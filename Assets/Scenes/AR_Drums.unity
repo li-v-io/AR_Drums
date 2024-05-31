@@ -7497,8 +7497,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   musicNotesAndSound: {fileID: 183469501}
-  explainOn: {fileID: 2095852551}
-  explainOff: {fileID: 0}
+  explainOn: {fileID: 47816687}
+  explainOff: {fileID: 2095852551}
   Vb: {fileID: 398441696}
 --- !u!1 &749302827
 GameObject:
