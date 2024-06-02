@@ -73,3 +73,6 @@ crashlytics-build.properties
 
 # Ignore .tgz files
 *.tgz
+
+# Ignore .mp4 files
+*.mp4

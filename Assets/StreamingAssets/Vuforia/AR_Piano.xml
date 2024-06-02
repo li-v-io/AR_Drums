@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QCARConfig>
-  <Tracking>
-    <ImageTarget name="Visitenkarte_Mitte" size="0.600000 0.255099" />
-    <ImageTarget name="Visitenkarte_Vorderseite" size="0.150000 0.096728" />
-    <ImageTarget name="Visitenkarte_Rueckseite" size="0.150000 0.096449" />
-  </Tracking>
-</QCARConfig>

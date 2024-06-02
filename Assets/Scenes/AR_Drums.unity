@@ -185,7 +185,7 @@ Transform:
   m_Children:
   - {fileID: 2070015137}
   m_Father: {fileID: 1205338681}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &124744406
 GameObject:
@@ -5458,13 +5458,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: rueckseite
+  mTrackableName: rueckseite_neu
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/AR_Drums.xml
-  mAspectRatio: 1.5396533
+  mAspectRatio: 1.5326533
   mImageTargetType: 0
   mWidth: 0.15
-  mHeight: 0.230948
+  mHeight: 0.229898
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -5506,7 +5506,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 228964477}
   mHiddenRoot: {fileID: 0}
-  mTargetName: rueckseite
+  mTargetName: rueckseite_neu
   mDatasetName: Vuforia/AR_Drums.xml
   mCastedBehaviour: {fileID: 228964477}
   mMeshFilter: {fileID: 0}
@@ -5524,6 +5524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explainVideo: {fileID: 1562853974}
+  buttonOff: {fileID: 356747042}
   Vb: {fileID: 2010918666}
 --- !u!114 &228964481
 MonoBehaviour:
@@ -5539,7 +5540,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   drums:
   - {fileID: 1241268026}
-  - {fileID: 1241268026}
+  - {fileID: 494099643}
   - {fileID: 966833344}
   vb:
   - {fileID: 375735639}
@@ -5563,6 +5564,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Vb1: {fileID: 1551322388}
   bassSound: {fileID: 1201841223}
+  buttonOff: {fileID: 2143428332}
 --- !u!1 &281049738
 GameObject:
   m_ObjectHideFlags: 0
@@ -5592,8 +5594,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1206781574}
-  - {fileID: 1342050370}
   - {fileID: 966833345}
+  - {fileID: 1342050370}
   m_Father: {fileID: 228964478}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5997,7 +5999,7 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 
   mInitializedInEditor: 0
-  mName: Pro_Video_vbtn
+  mName: v_pressMe
   mSensitivity: 1
   mHasUpdatedPose: 1
   mPrevTransform:
@@ -6387,7 +6389,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 819124920}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &494099645
 AudioSource:
@@ -6610,7 +6612,7 @@ GameObject:
   - component: {fileID: 579959392}
   - component: {fileID: 579959391}
   m_Layer: 0
-  m_Name: Text_Pro
+  m_Name: Text_bassLoop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6709,7 +6711,7 @@ GameObject:
   - component: {fileID: 616751675}
   - component: {fileID: 616751674}
   m_Layer: 0
-  m_Name: Text_Pro
+  m_Name: Text_Help
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6975,7 +6977,7 @@ GameObject:
   - component: {fileID: 693611424}
   - component: {fileID: 693611423}
   m_Layer: 0
-  m_Name: Pro_Text
+  m_Name: Text_crash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7388,7 +7390,7 @@ GameObject:
   - component: {fileID: 749302830}
   - component: {fileID: 749302829}
   m_Layer: 0
-  m_Name: Pro_Text
+  m_Name: Pro_on
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7579,8 +7581,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 660924112}
-  - {fileID: 1469945814}
   - {fileID: 494099644}
+  - {fileID: 1469945814}
   m_Father: {fileID: 228964478}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7614,7 +7616,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 281049739}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &966833346
 AudioSource:
@@ -7626,7 +7628,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 84e1ff28c21dc7740a8fc0bbb36c3bb5, type: 3}
+  m_audioClip: {fileID: 8300000, guid: edc08c817e92dfb419e738b975223b7f, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -7724,7 +7726,7 @@ GameObject:
   - component: {fileID: 1025206675}
   - component: {fileID: 1025206674}
   m_Layer: 0
-  m_Name: Pro_Text
+  m_Name: Text_bassLoop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8029,7 +8031,7 @@ GameObject:
   - component: {fileID: 1141519395}
   - component: {fileID: 1141519394}
   m_Layer: 0
-  m_Name: Pro_Text
+  m_Name: Text_Help
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8202,7 +8204,7 @@ GameObject:
   - component: {fileID: 1183708456}
   - component: {fileID: 1183708455}
   m_Layer: 0
-  m_Name: Text_Pro
+  m_Name: Text_crash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8301,7 +8303,7 @@ GameObject:
   - component: {fileID: 1184525352}
   - component: {fileID: 1184525351}
   m_Layer: 0
-  m_Name: Text_Pro
+  m_Name: Text_on
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8544,8 +8546,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 375735643}
-  - {fileID: 100885947}
   - {fileID: 1241268027}
+  - {fileID: 100885947}
   m_Father: {fileID: 228964478}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8697,7 +8699,7 @@ GameObject:
   - component: {fileID: 1218255660}
   - component: {fileID: 1218255659}
   m_Layer: 0
-  m_Name: Pro_Text
+  m_Name: Pro_off
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8889,7 +8891,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1205338681}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1241268028
 AudioSource:
@@ -9036,7 +9038,7 @@ GameObject:
   - component: {fileID: 1282300678}
   - component: {fileID: 1282300677}
   m_Layer: 0
-  m_Name: Text_Pro
+  m_Name: Text_off
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9283,7 +9285,7 @@ Transform:
   m_Children:
   - {fileID: 1183708454}
   m_Father: {fileID: 281049739}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1422377389
 GameObject:
@@ -9705,7 +9707,7 @@ Transform:
   m_Children:
   - {fileID: 2123395584}
   m_Father: {fileID: 819124920}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1551322383
 GameObject:
@@ -9872,7 +9874,7 @@ Transform:
   m_GameObject: {fileID: 1562853974}
   m_LocalRotation: {x: 0.53729963, y: -0, z: -0, w: 0.8433915}
   m_LocalPosition: {x: -0.041532796, y: 0.02687796, z: 0.09580997}
-  m_LocalScale: {x: 0.15999995, y: 0.08999999, z: 0.099999994}
+  m_LocalScale: {x: 0.24, y: 0.13499999, z: 0.099999994}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 378331222}
@@ -9886,7 +9888,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1562853974}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: a11b86fb84ebe154ba5b4b5960012d8f, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 69f4534eef3a0b14091f5d8d4f1ec90b, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -10153,7 +10155,7 @@ GameObject:
   - component: {fileID: 1751050626}
   - component: {fileID: 1751050625}
   m_Layer: 0
-  m_Name: Pro_Text
+  m_Name: Text_hiHat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10325,7 +10327,7 @@ GameObject:
   - component: {fileID: 1787765875}
   - component: {fileID: 1787765874}
   m_Layer: 0
-  m_Name: Pro_Text
+  m_Name: Text_snare
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10716,7 +10718,7 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 
   mInitializedInEditor: 0
-  mName: Pro_Video_vbtn
+  mName: v_help
   mSensitivity: 1
   mHasUpdatedPose: 1
   mPrevTransform:
@@ -10862,7 +10864,7 @@ GameObject:
   - component: {fileID: 2070015139}
   - component: {fileID: 2070015138}
   m_Layer: 0
-  m_Name: Text_Pro
+  m_Name: Text_hiHat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10993,7 +10995,7 @@ GameObject:
   - component: {fileID: 2123395586}
   - component: {fileID: 2123395585}
   m_Layer: 0
-  m_Name: Text_Pro
+  m_Name: Text_snare
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
